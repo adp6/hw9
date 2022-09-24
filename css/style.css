@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&family=Shadows+Into+Light&display=swap');
+.banner {
+    background-image: url(../img/coffee_1.png);
+    min-height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.burger {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    
+}
+.burger>span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    opacity: 1;
+    left: 0;
+}
+.burger span:nth-child(1) {
+    top: 0px;
+  }
+  
+  .burger span:nth-child(2) {
+    top: 15px;
+  }
+  
+  .burger span:nth-child(3) {
+    top: 30px;
+  }
+h4 {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+}
+h1 {
+    font-size: 110px;
+    font-family: 'Shadows Into Light', cursive;
+}
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 44px;
+}
+h5 {
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+h6 {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 24px;
+}
+ul {
+    gap: 15%;
+}
+.keep_all {
+    word-break: keep-all;
+}
+span {
+    font-size: 26px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+.georg {
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+.card_drink {
+    width: 350px;
+    height: 350px;
+    background-image: url(../img/drinks.png);
+    border-color:rgba(129, 97, 59, 1) !important;
+}
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.card_cakes {
+    width: 350px;
+    height: 350px;
+    background-image: url(../img/cakes.png);
+    border-color:rgba(129, 97, 59, 1) !important;
+}
+.card_food {
+    width: 350px;
+    height: 350px;
+    background-image: url(../img/food.png);
+    border-color:rgba(129, 97, 59, 1) !important;
+}
+.banner1 {
+    background-image: url(../img/banner.png);
+    height: 500px;
+}
+.absolute {
+    bottom: 10px;
+    right: 5px;
+}
+@media screen and (max-width:547px) {
+    .banner {
+        min-height: 100vh;
+        background-image: url(../img/coffee_min.png);
+    }
+    .banner1 {
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+    .absolute {
+        bottom: 6px;
+    }
+    ul {
+        background-color: white;
+    }
+    .li_color{
+        color: #198754 !important;
+    }
+}
